@@ -8,7 +8,7 @@ nav ul {
 	width:750px;
 	margin:0 auto;
 	list-style:none;
-	display:inline-block;
+	/*display:inline-block;*/
 	text-align: center;
 }
 nav li {
