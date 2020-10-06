@@ -8,27 +8,16 @@ nav ul {
 	width:750px;
 	margin:0 auto;
 	list-style:none;
-	/*display:inline-block;*/
-	text-align: center;
+	display:inline-block;
+	/*text-align: center;*/
 }
 nav li {
 	float:none;
 	display:inline;
-}
-nav li a {
-	display:block;
-	text-align:center;
-	width:150px;
-	text-decoration:none; 
-}
-nav li {
  	height: 40 px;
   	background: #000000;
-}
-nav li {
 	list-style-type: none;
 	width: 150px;
-	float: none;
 }
 nav li a {
 	text-decoration: none;
@@ -37,6 +26,7 @@ nav li a {
 	display: block;
 	text-align:center;
 	font-family: "Courier New", Courier, monospace; 
+	width:150px;
 }
 nav li a:hover {
 	background-color:#555251;
