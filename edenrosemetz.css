@@ -12,7 +12,7 @@ nav ul {
 	text-align: center;
 }
 nav li {
-	float:none;
+	float:left;
 	display:inline-block;
  	height: 40 px;
   	background: #000000;
