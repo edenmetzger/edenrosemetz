@@ -12,8 +12,8 @@ nav ul {
 	text-align: center;
 }
 nav li {
-	float:left;
-	display:inline;
+	float:none;
+	/*display:inline;*/
  	height: 40 px;
   	background: #000000;
 	list-style-type: none;
