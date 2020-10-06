@@ -5,6 +5,7 @@ nav ul {
 	width:750px;
 	margin:0 auto;
 	list-style:none;
+	display:inline-block;
 }
 nav li {
 	float:left;
