@@ -9,7 +9,7 @@ ul {
 li {
 	float:left;
 }
-a {
+li a {
 	display:block;
 	text-align:center;
 	width:150px;
