@@ -9,10 +9,12 @@ nav ul {
 	margin:0 auto;
 	list-style:none;
 	display:inline-block;
+	text-align: center;
 }
-/*nav li {
-	float:left;
-}*/
+nav li {
+	float:none;
+	display:inline;
+}
 nav li a {
 	display:block;
 	text-align:center;
@@ -26,7 +28,7 @@ nav li {
 nav li {
 	list-style-type: none;
 	width: 150px;
-	/*float: left;*/
+	float: none;
 }
 nav li a {
 	text-decoration: none;
