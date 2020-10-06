@@ -9,10 +9,10 @@ nav ul {
 	margin:0 auto;
 	list-style:none;
 	display:inline-block;
-	/*text-align: center;*/
+	text-align: center;
 }
 nav li {
-	float:none;
+	float:left;
 	display:inline;
  	height: 40 px;
   	background: #000000;
