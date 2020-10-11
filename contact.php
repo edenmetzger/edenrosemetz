@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+    if($_POST["message"]) {
+    mail("ediemetzger@gmail.com", "Here is the subject line",
+    $_POST["insert your message here"]. "From: an@email.address");
+    }
+?>
+
 <html>
   <head>
 		<meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
@@ -25,7 +31,7 @@
 		<p>
 			Send me a message!
 		</p>			
-		<form action="mailto:ediemetzger@gmail.com" method="post" enctype="text/plain">
+		<form action="mailto:ediemetzger@gmail.com" method="post" action="contact.php" enctype="text/plain">
 			Name:<br>
 			<input type="text" name="name" style="height:20px;width:420px">
 			<br><br>

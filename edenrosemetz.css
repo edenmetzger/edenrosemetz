@@ -2,11 +2,36 @@ h1 {
 	text-align:center;
 	color:white;
 }
+
+p {
+	font-family: "Courier New", Courier, monospace; 
+	color:white;
+	text-align:center;
+	font-weight:bold;
+	font-size:xx-large;
+}
+form {
+	color:white;
+	font-family: "Courier New", Courier, monospace; 
+	text-align:center;
+}
+
+input[type=submit], input[type=reset] {
+	border: none;
+	color: black;
+	padding: 16px 32px;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-family: "Courier New", Courier, monospace;
+	font-size:medium;
+  }
+
 body {
 	font-family: 'Beth Ellen';
 	font-size: 22px;
-	background-color:black;
+	background-color:black;	
 }
+
 nav {
 	text-align:center;
 }
@@ -16,14 +41,15 @@ nav ul {
 	list-style:none;
 	display:inline-block;
 	text-align: center;
+	padding: 0;
 }
 nav li {
 	float:none;
-	display:inline-block;
+	display:inline-flex;
  	height: 40 px;
   	background: #000000;
 	list-style-type: none;
-	width: 150px;
+	width: 140px;
 }
 nav li a {
 	text-decoration: none;
@@ -39,5 +65,9 @@ nav li a:hover {
 }
 headerBreak {
 	width: 100%;
-	height: o%;
+	height: 0%;
+}
+div {
+	color:white;
+	font-family: "Courier New", Courier, monospace; 
 }
