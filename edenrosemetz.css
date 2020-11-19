@@ -71,6 +71,24 @@ div {
 	color:white;
 	font-family: "Courier New", Courier, monospace;
 }
+iframe {
+	padding: 20px;
+}
+#message {
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+}
+#resume {
+	position: absolute; 
+	top: 700px; 
+	left: 20px
+}
+#photo {
+	position: absolute;
+	top: 245px; 
+	left: 400px; 
+	right:20px
+}
 img {
 	display:inline-block;
 	width: 300px;
