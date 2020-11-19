@@ -35,7 +35,7 @@ body {
 nav {
 	text-align:center;
 }
-nav ul {
+#navbar {
 	width:750px;
 	margin:0 auto;
 	list-style:none;
@@ -67,7 +67,7 @@ headerBreak {
 	width: 100%;
 	height: 0%;
 }
-div {
+h2 {
 	color:white;
 	font-family: "Courier New", Courier, monospace;
 }
@@ -81,7 +81,8 @@ iframe {
 #resume {
 	position: absolute; 
 	top: 700px; 
-	left: 20px
+	left: 130px;
+	font-size: xx-large;
 }
 #photo {
 	position: absolute;
@@ -95,7 +96,7 @@ img {
 	height: 450px;
 	padding: 20px;
 }
-a {
+#resume2 {
 	color: white;
 	font-family: "Courier New", Courier, monospace;
 	text-decoration: underline;

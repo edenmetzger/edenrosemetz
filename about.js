@@ -21,7 +21,6 @@ ifrm.setAttribute('allow', 'encrypted-media');
 /* Resume **/
 var el = document.getElementById('resume2');
 el.setAttribute('href', 'resume.pdf');
-el.setAttribute('downloadtarget', '_blank');
 
 /* Photo **/
 var el = document.getElementById('photo');
