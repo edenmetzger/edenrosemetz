@@ -25,7 +25,6 @@
 				<li><a href="index.html">Home</a></li>
 				<li><a href="#portfolio">Portfolio</a></li>
 				<li><a class="active" href="#contact">Contact</a></li>
-				<li><a href="about.html">About</a></li>
 			</ul>
 		</nav>
 		<p>
@@ -33,13 +32,13 @@
 		</p>			
 		<form action="mailto:ediemetzger@gmail.com" method="post" action="contact.php" enctype="text/plain">
 			Name:<br>
-			<input type="text" name="name" style="height:20px;width:420px">
+			<input type="text" style="height:20px;width:420px">
 			<br><br>
 			E-mail:<br>
-			<input type="text" name="mail" style="height:20px;width:420px">
+			<input type="text" style="height:20px;width:420px">
 			<br><br>
 			Message:<br>
-			<input type="text" name="comment" style="height:200px;width:420px"> 
+			<input type="text" style="height:200px;width:420px"> 
 			<br><br>
 			<input type="submit" value="Send">
 			<input type="reset" value="Reset">
