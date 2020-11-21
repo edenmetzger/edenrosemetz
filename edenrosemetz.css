@@ -89,6 +89,7 @@ headerBreak {
 h2 {
 	color:white;
 	font-family: "Courier New", Courier, monospace;
+	text-align: center;
 }
 iframe {
 	padding: 30px;
@@ -120,11 +121,4 @@ img {
 	color: white;
 	font-family: "Courier New", Courier, monospace;
 	text-decoration: underline;
-}
-
-
-@media all and (max-width: 601px) {
-	#photo {
-		display: none;
-	}
 }
